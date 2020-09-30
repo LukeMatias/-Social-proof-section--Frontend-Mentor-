@@ -27,14 +27,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  border: 1px solid red;
 }
 
 .bottom-mobile-bg {
   position: absolute;
   bottom: -2em;
   right: 0;
-  border: 1px solid red;
 }
 
 .top-desktop-bg,
@@ -174,7 +172,7 @@ body {
      MEDIA QUERYS
  ************************/
 
-@media (min-width:400px) {
+@media all and (min-width:400px) {
 
   /*BG SVG IMAGE MOBILE
    *********************/
@@ -189,15 +187,15 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    border: 1px solid blue;
   }
 
 
 }
 
-@media (min-width: 600px) {
+@media all and (min-width: 600px) {
 
   .wrapper {
+    margin: 1em;
 
     box-shadow:
       -1px 0px 20px rgba(0, 0, 0, 0.3),
@@ -208,24 +206,24 @@ body {
 
 }
 
-@media (min-width:900px) {
+@media all and (min-width:900px) {
 
 
   .up-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 1em;
+    margin-bottom: 1em;
 
   }
 
   .container {
-    padding: 1em 1em 3em;
+    padding: 1em 2em 3em;
   }
 
   .thousand,
   .only {
     text-align: left;
-    border: 1px solid red;
 
   }
 
@@ -243,7 +241,6 @@ body {
 
   .cards-rated {
     margin-top: 6em;
-    border: 1px solid pink;
   }
 
 
@@ -261,11 +258,11 @@ body {
   }
 
   .second-card {
-    left: 3em;
+    left: 2em;
   }
 
   .third-card {
-    left: 6em;
+    left: 4em;
   }
 
   .stars {
@@ -283,7 +280,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid blue;
   }
 
   .top-mobile-bg {
@@ -297,6 +293,7 @@ body {
 
   .card-test {
     position: relative;
+    max-height: fit-content;
   }
 
   .card-test-second {
@@ -304,7 +301,7 @@ body {
   }
 
   .card-test-third {
-    top: 3em;
+    top: 4em;
   }
 
 
