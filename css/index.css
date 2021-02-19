@@ -195,7 +195,7 @@ body {
 @media all and (min-width: 600px) {
 
   .wrapper {
-    margin: 1em;
+    margin: auto;
 
     box-shadow:
       -1px 0px 20px rgba(0, 0, 0, 0.3),
